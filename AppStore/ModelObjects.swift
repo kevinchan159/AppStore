@@ -34,7 +34,6 @@ class Category {
         
         let urlRequest = URLRequest(url: url)
         
-        
         // pull data from URL
         URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
             if (error != nil) {
